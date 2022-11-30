@@ -1,0 +1,40 @@
+/* Write your code here. */
+.unOrder-img-listItems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  padding-left: 0px;
+}
+.mainBgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60vw;
+}
+.main-image {
+  height: 60vh;
+}
+@media screen and (max-width: 576px) {
+  .main-image {
+    height: 40vh;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #1e293b;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #64748b;
+  font-weight: 600;
+}

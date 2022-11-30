@@ -1,0 +1,12 @@
+/* Write your code here. */
+.list-imgs {
+  height: 50px;
+  width: 50px;
+}
+.list-items {
+  list-style-type: none;
+}
+.button {
+  border-style: none;
+  background-color: #ffffff;
+}
