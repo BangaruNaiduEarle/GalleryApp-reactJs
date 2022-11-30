@@ -5,8 +5,12 @@
 }
 .list-items {
   list-style-type: none;
+  opacity: 0.5;
 }
 .button {
   border-style: none;
   background-color: #ffffff;
+}
+.thumbnail-img {
+  opacity: 1;
 }
